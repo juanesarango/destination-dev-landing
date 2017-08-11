@@ -1,0 +1,120 @@
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import 'font-awesome';
+
+@import 'variables';
+@import 'components';
+
+
+body, html {
+    margin: 0;
+}
+.main-container {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    margin-top: -100px;
+    background-image: url('../img/homepage.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+
+h1 {
+    font-size: 80px;
+    text-align: left;
+}
+
+nav {
+    width: 100%;
+    color: white;
+    img {
+        height: 80px;
+    }
+    .top-text {
+        margin-top: 30px;
+        font-size: 14px;
+        text-align: right;
+        button {
+            display: inline-block;
+            margin-left: 20px;
+        }
+    }
+
+}
+
+.home-text {
+    padding-top: 160px;
+    h2 {
+        margin-top: 160px;
+        color: $green-dev;
+        font-size: 50px;
+    }
+    .new-project {
+        margin: 40px 0px;
+        height: 60px;
+        width: 400px;
+        font-size: 30px;
+    }
+    .join-btn {
+        margin-left: 60px;
+    }
+}
+
+.second-container {
+    padding: 50px;
+    color: $gray;
+    h1 {
+        text-align: center;    
+        margin-bottom: 50px;
+    }
+    img {
+        margin: 30px 40px;
+        height: 40px;
+        &.logo1 {
+            margin-left: calc(50% - 89px);
+            height: 40px;
+        }
+        &.logo2 {
+            margin-left: calc(50% - 80px);
+            height: 40px;
+        }
+        &.logo3 {
+            margin-left: calc(50% - 60px);
+            height: 60px;
+        }
+        &.logo4 {
+            margin-left: calc(50% - 35px);
+            height: 50px;
+        }
+        &.logo5 {
+            margin-left: calc(50% - 63px);
+            height: 60px;
+        }
+        &.logo6 {
+            margin-left: calc(50% - 75px);
+            height: 80px;
+        }
+        &.logo7 {
+            margin-left: calc(50% - 36px);
+            height: 60px;
+        }
+        &.logo8 {
+            margin-left: calc(50% - 80px);
+            height: 50px;
+        }
+    }
+    
+    span.top-one {
+        color: #444;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    button {
+        margin-top: 50px;
+        margin-left: calc(50% - 151px);
+        height: 60px;
+    }
+}

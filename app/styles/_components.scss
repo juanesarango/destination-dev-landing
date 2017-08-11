@@ -1,0 +1,48 @@
+button {
+    padding: 2px 40px;
+    border: none;
+    border-radius: 5px;
+    &:hover {
+        cursor: pointer;
+    }
+    &:focus {
+        outline: none;
+    }
+    &.white {
+        color: $gray;
+        background-color: white;
+        border: 1px solid white;
+        &:hover {
+            color: white;
+            background-color: transparent;
+            border: 1px solid white;
+        }
+    }
+    &.white-gray-border {
+        color: $light-gray;
+        background-color: white;
+        border: 1px solid $light-gray;
+        &:hover {
+            color: white;
+            background-color: $light-gray;
+        }
+    }
+    &.transparent {
+        color: white;
+        background-color: transparent;
+        border: 1px solid white;
+        &:hover {
+            color: $gray;
+            background-color: $white;
+        }
+    }
+    &.green {
+        color: white;
+        background-color: $green-dev;
+        &:hover {
+            color: white;
+            background-color: $green-dev-dark;
+        }
+    }
+}
+
