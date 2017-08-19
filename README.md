@@ -14,7 +14,7 @@ You will need the following things properly installed on your computer.
 
 - `git clone <repository-url` this repository
 - `cd <repository name>`
-- `npm install`
+- `yarn install`
 
 ## Running / Development
 - `gulp server`
